@@ -2,8 +2,8 @@
 
 
 ----
-title: Codebook for tidy data set, coursera week 4
-date: 2019-11-29 21:24:54
+# title: Codebook for tidy data set, coursera week 4
+## date: 2019-11-29 21:24:54
 
 ## Dataset Information
 
@@ -15,8 +15,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Cleaning the data
 The above data was modified to provide an average mean and standard deviation of all the variables outlined in the README. These were averaged out to provide one row for each subject/activity combination. 
-The activities measured: walking, walking upstairs, walking downstairs, sitting, standing and laying
-
+The activities measured: walking, walking upstairs, walking downstairs, sitting, standing and laying.
+This was done in the following general steps:
+  Merges the training and the test sets to create one data set.
+  Extracts only the measurements on the mean and standard deviation for each measurement.
+  Uses descriptive activity names to name the activities in the data set.
+  Appropriately labels the data set with descriptive variable names.
+  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+The final tidy data set was produced using the run_analysis.R code provided.
 
 # Data report overview
 For a full review of the tidy data, please see below
