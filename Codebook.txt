@@ -13,7 +13,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 Source:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+## Cleaning the data
+The above data was modified to provide an average mean and standard deviation of all the variables outlined in the README. These were averaged out to provide one row for each subject/activity combination. 
+The activities measured: walking, walking upstairs, walking downstairs, sitting, standing and laying
+
+
 # Data report overview
+For a full review of the tidy data, please see below
+
 The dataset examined has the following dimensions:
 
 
