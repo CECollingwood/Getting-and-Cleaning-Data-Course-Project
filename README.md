@@ -1,8 +1,8 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-# ==================================================================
-# Human Activity Recognition Using Smartphones Dataset
-# Tidy Data Set - Charlotte Collingwood
+ ==================================================================
+Human Activity Recognition Using Smartphones Dataset
+Tidy Data Set - Charlotte Collingwood
 # ==================================================================
 
 # The final tidy data set:
